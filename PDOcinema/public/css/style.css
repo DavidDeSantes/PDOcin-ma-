@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(78, 78, 78);
+}
+
+th{
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(165, 42, 42, 0.717);
+}
+
+td{
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    text-transform: capitalize;
+}
+a{
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1, h2{
+    color: white;
+}
+
+
+
+nav{
+    background-color:rgba(165, 42, 42, 0.717); ;
+    display: flex;
+    justify-content:center;
+    gap: 8rem;
+    padding: 2rem;
+
+}
+nav a{
+    text-decoration: none;
+    color: black; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#contenuDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.input{
+    margin-bottom: 2rem;
+}
+a{
+     margin-bottom: 1rem;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  button {
+      width: 80;
+      height: 30px;
+      cursor: pointer;
+      font-size: 15px;
+      font-family: 'Staatliches', cursive;
+      letter-spacing: 5px;
+      background: rgba(165, 42, 42, 0.717);
+      border: 2px solid black;
+      box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+      transition: 500ms;
+  }
+  
+  button:after {
+      content: '';
+      position: absolute;
+      transform: translateX(-55px) translateY(-40px);
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: transparent;
+      box-shadow: 0px 0px 50px transparent;
+      transition: 500ms;
+  }
+  
+  button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+  }
+  
+ 
+  @keyframes spin{
+      25%{transform: translateX(-25px) translateY(-35px);
+              width: 15px;
+              height: 15px;}
+      50% {transform: translateX(-55px) translateY(-30px);
+              width: 5px;
+              height: 5px;}
+      75% {transform: translateX(-85px) translateY(-35px);
+              width: 15px;
+              height: 15px;}
+  }
+  
+  button:focus {
+      outline: none;
+  }
+
+  img{
+      height: 22px;
+      width: 22px;
+  }
