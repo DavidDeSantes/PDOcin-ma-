@@ -6,3 +6,4 @@ Dans le cadre de ma formation "Développeur web et web mobile" j'ai reproduit ce
 - Mise en place du détail des films (informations sur le film sélectionné + casting du film) et détail des acteurs. (informations sur l'acteur sélectionné + filmographie de l'acteur).
 - Instauration de l'ajout des catégories film, acteur, réalisateur.
 - Mise en oeuvre de la modification et suppression des catégories film, acteur, réalisateur
+- CSS
